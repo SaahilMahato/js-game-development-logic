@@ -4,14 +4,23 @@
         <title>Game logic</title>
         <meta charset="UTF-8" />
         <style>
+            main {
+                display: flex;
+            }
+
             #gameScreen {
+                justify-content: center;
+                align-items: center;
+                
                 border: 1px solid black;
             }
         </style>
     </head>
 
     <body>
-        <canvas id="gameScreen" width="800" height="600"></canvas>
+        <main>
+            <canvas id="gameScreen" width="800" height="600"></canvas>
+        </main>
         <script type="module" src="src/index.js"></script>
     </body>
 </html>

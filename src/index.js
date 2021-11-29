@@ -16,7 +16,6 @@ const gameLoop = (timestamp) => {
     let deltaTime = timestamp - lastTime;
     lastTime = timestamp;
 
-
     // clear the rectangle
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
